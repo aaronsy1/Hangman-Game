@@ -19,24 +19,60 @@
 
 <body>
     <div >
-        <h1 class = "text-center" id="animelogo">Anime Hangman!</h1>
+     <!--logo -->
+        <p class = "text-center" id="animelogo">Anime Hangman!</p>
     </div>
 
     <div class="container border">
         <div class="row">
 
-            <div class="col-md-6 border-right">
+            <!--div where anime picture shows up-->
+            <div class="col-md-6 border-right" id = "anime-picture" >
 
             </div>
 
+
+
             <div class="col-md-6 ">
-
+                
+            <!--div where letters to guess show up-->
                 <div class="row border-bottom">
-                    Press any Key to get started
-                </div>
 
+                    <div class = "w-100">
+
+                    <p> Press any Key to get started! </p> 
+                    
+                    </div>
+
+
+                    <div id = "wins" class = "w-100" >
+                    
+                    <p>Wins: </p>  
+
+                    </div> 
+                    
+                    <div id = "loss"  class = "w-100">
+
+                    <p>Loss: </p>  
+
+                    </div>
+
+                    <div class="game">
+
+                    </div>
+                </div>
+            
+                <!--div to show number of guesses left and guessed letters-->
                 <div class="row ">
-                    Number of Guesses left
+                    
+                    <div id="guesses-left" class = "w-100">
+                            <p>Number of Guesses left: </p>
+                    </div>
+
+                    <div id="guessed-letters" class = "w-100">
+                            <p> Guessed Letters: </p>
+                    </div>
+                    
                 </div>
             </div>
         </div>
