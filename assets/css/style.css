@@ -1,10 +1,18 @@
 * {
-    font-family: 'Ninja Naruto', arial;
-    color: orange;
+    font-family: 'Earwig Factory', arial;
+    color: #ef002f;
+}
+
+html {
+    height: 100%;
 }
 
 body {
+    height: 100%;
     background-color: black;
+    background-image: url("../images/TakeYourTime.gif");
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 
 #animelogo {
