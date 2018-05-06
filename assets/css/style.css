@@ -1,6 +1,6 @@
 * {
     font-family: 'Earwig Factory', arial;
-    color: #ef002f;
+    color:red;
 }
 
 html {
@@ -23,4 +23,12 @@ body {
 #start-game {
 font-size:50px;
 letter-spacing: 4px;
+}
+
+p{
+    font-size: 40px;
+}
+
+#guessed-letters{
+    font-size: 40px;
 }

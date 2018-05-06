@@ -3,7 +3,7 @@ var loss = 0;
 
 // 32 characters in array
 var char = [
-    'ren', 'futaba', 'ryuji', 'yusuke', 'makoto', 'haru', 'akechi', 'morgana'
+    'ren', 'futaba', 'ryuji', 'yusuke', 'makoto', 'haru', 'akechi', 'morgana','ann'
 ];
 
 var guessedLetters = [];
@@ -53,20 +53,19 @@ document.onkeyup = function (event) {
     //key press that determines user guess and starts game
     document.onkeyup = function (event) {
         var userGuess = event.key;
-        console.log("USERGUESS: " + userGuess);
-        console.log("found: " + found);
+        
         if (guessedLetters.length === 0) {
             guessedLetters.push(userGuess);
-            console.log("length =0");
+            
         }
         else {
-            console.log("running for loop");
+            
             found = false;
             for (var k = 0; k < guessedLetters.length; k++) {
                 
                 if (userGuess === guessedLetters[k]) {
                     found = true;
-                    console.log("found set to true");
+                    
 
                 }
                 
